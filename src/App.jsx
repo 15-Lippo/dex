@@ -77,7 +77,7 @@ const App = ({ isServerInfo }) => {
 
         <div style={styles.content}>
           <Switch> 
-            <Route path="/">
+            <Route path="/1inch">
               <Tabs defaultActiveKey="1" style={{ alignItems: "center" }}>
                 <Tabs.TabPane tab={<span>Ethereum</span>} key="1">
                   <InchDex chain="eth" />
