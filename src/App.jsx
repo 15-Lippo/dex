@@ -13,12 +13,10 @@ import { Layout, Tabs } from "antd";
 import "antd/dist/antd.css";
 import NativeBalance from "components/NativeBalance";
 import "./style.css";
-import QuickStart from "components/QuickStart";
 import Contract from "components/Contract/Contract";
-import Text from "antd/lib/typography/Text";
 import Ramper from "components/Ramper";
 import MenuItems from "./components/MenuItems";
-const { Header, Footer } = Layout;
+const { Header } = Layout;
 
 const styles = {
   content: {
