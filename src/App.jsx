@@ -119,6 +119,9 @@ const App = ({ isServerInfo }) => {
             </Route>
           </Switch>
         </div>
+        <div style={{textAlign:'center'}} >
+        <span  style={{ padding:'8px', borderRadius:'5px', border:'1px solid ', display:'inline-block'}} >If you Need me for Blockchain App , Email : jsconfigjs@gmail.com, Phone : +88 01722906894</span>
+        </div>
       </Router> 
     </Layout>
   );
@@ -127,10 +130,10 @@ const App = ({ isServerInfo }) => {
 export const Logo = () => (
   <div style={{ display: "flex" }}>
   <h5 style={{
-    fontSize: "20px",
+    fontSize: "22px",
     color: "#1890ff",
     fontFamily: "cursive",
-  }}>ZeusSwap</h5>
+  }}>DEX</h5>
   </div>
 );
 
